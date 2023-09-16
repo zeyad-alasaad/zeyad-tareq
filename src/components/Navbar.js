@@ -4,7 +4,7 @@ import { useLayoutEffect } from "react";
 import { useLocalStorage } from "usehooks-ts";
 
 const Navbar = () => {
-  const [theme, setTheme] = useLocalStorage("theme", "dark");
+  const [theme, setTheme] = useLocalStorage("theme", "night");
 
   useLayoutEffect(() => {
     const body = document.body;
@@ -12,8 +12,8 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <div className="navbar bg-base-300 sticky top-0 z-10">
-      <div className="max-w-screen-xl mx-auto my-0 w-full">
+    <div className="navbar bg-base-200 sticky top-0 z-10">
+      <div className="max-w-screen-lg mx-auto my-0 w-full">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl">Zeyad Alas’ad</a>
         </div>
@@ -24,10 +24,10 @@ const Navbar = () => {
                 <summary>Theme</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a onClick={() => setTheme("dark")}>Dark</a>
+                    <a onClick={() => setTheme("night")}>Dark</a>
                   </li>
                   <li>
-                    <a onClick={() => setTheme("light")}>Light</a>
+                    <a onClick={() => setTheme("cmyk")}>Light</a>
                   </li>
                 </ul>
               </details>
