@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={architectsDaughter.className}>
+      <body className={architectsDaughter.className} data-theme="night">
         {children}
         <Analytics />
       </body>
