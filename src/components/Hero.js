@@ -1,12 +1,12 @@
 const Hero = () => {
   return (
-    <div className="mockup-browser border border-base-300 w-full">
+    <div className="mockup-browser border border-base-content w-full">
       <div className="mockup-browser-toolbar">
-        <div className="input border border-base-300">
+        <div className="input border border-base-content">
           https://zeyadtareq.com
         </div>
       </div>
-      <div className="flex justify-center py-4 border-t border-base-300 text-2xl">
+      <div className="flex justify-center py-4 border-t border-base-content text-2xl">
         Hello!
       </div>
       <div className="flex justify-center pb-4 text-3xl whitespace-break-spaces">
