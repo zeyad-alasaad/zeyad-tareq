@@ -8,8 +8,13 @@ const architectsDaughter = Architects_Daughter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://zeyadtareq.com"),
   title: "Zeyad Alas’ad",
   description: "Zeyad Tareq Alas’ad’s portfolio",
+  verification: {
+    google:
+      "google-site-verification=g0ImZMFdcEEeg3P8_A46OX8svGQ9eOXpb6wI5HDXstY",
+  },
 };
 
 export default function RootLayout({ children }) {
