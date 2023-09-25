@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="navbar bg-base-200 sticky top-0 z-10">
       <div className="max-w-screen-lg mx-auto my-0 w-full">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">Zeyad Alas’ad</a>
+          <div className="btn btn-ghost normal-case text-xl">Zeyad Alas’ad</div>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
