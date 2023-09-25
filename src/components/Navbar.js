@@ -23,6 +23,7 @@ const Navbar = () => {
             <li>
               <label className="swap swap-rotate p-0">
                 <input
+                  aria-label="Theme Toggle"
                   type="checkbox"
                   checked={checked}
                   onChange={() => {
