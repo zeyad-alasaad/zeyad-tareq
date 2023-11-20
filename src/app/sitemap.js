@@ -1,12 +1,12 @@
-const sitemap = async () => {
-  const baseUrl = "https://zeyadtareq.com";
+const baseUrl = "https://zeyadtareq.com";
 
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-    },
-  ];
+const sitemap = async () => {
+  const routesMap = [""].map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date().toISOString(),
+  }));
+
+  return [...routesMap];
 };
 
 export default sitemap;
