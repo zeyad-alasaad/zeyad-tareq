@@ -14,11 +14,8 @@ const ContactUs = () => {
         </pre>
         <pre data-prefix=">" className="text-info">
           <code>
-            <a
-              className="hover:underline"
-              href="mailto:zeyad.t.alasaad@outlook.com"
-            >
-              zeyad.t.alasaad@outlook.com
+            <a className="hover:underline" href="mailto:ziadtareq@outlook.com">
+              ziadtareq@outlook.com
             </a>
           </code>
         </pre>
