@@ -3,6 +3,7 @@
 import { skills } from "@/constants/skills";
 import { useMemo } from "react";
 import SkillTag from "./SkillTag";
+import Section from "./Section";
 
 const Skills = () => {
   const skillsList = useMemo(
@@ -14,10 +15,9 @@ const Skills = () => {
   );
 
   return (
-    <div className="mt-8">
-      <div className="text-secondary w-full text-2xl">Skills</div>
+    <Section title="Skills">
       <div className="flex flex-wrap">{skillsList}</div>
-    </div>
+    </Section>
   );
 };
 
