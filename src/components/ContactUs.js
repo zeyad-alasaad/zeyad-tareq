@@ -1,7 +1,8 @@
+import Section from "./Section";
+
 const ContactUs = () => {
   return (
-    <div className="mt-8 w-full">
-      <div className="text-secondary w-full text-2xl">Contact</div>
+    <Section title="Contact">
       <div className="mockup-code mt-2">
         <pre data-prefix="$">
           <code>cd home/documents</code>
@@ -40,7 +41,7 @@ const ContactUs = () => {
           </code>
         </pre>
       </div>
-    </div>
+    </Section>
   );
 };
 
