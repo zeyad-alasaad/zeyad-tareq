@@ -42,6 +42,16 @@ export const skills = [
     id: 4,
   },
   {
+    name: "Zustand",
+    icon: (
+      <Icon
+        icon="fluent-emoji-high-contrast:polar-bear"
+        style={{ fontSize: "24px", width: "20px", height: "20px" }}
+      />
+    ),
+    id: 5,
+  },
+  {
     name: "Redux",
     icon: (
       <Icon
@@ -49,7 +59,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 5,
+    id: 6,
   },
   {
     name: "Graphql",
@@ -59,7 +69,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 6,
+    id: 7,
   },
   {
     name: "Node.js",
@@ -69,7 +79,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 7,
+    id: 8,
   },
   {
     name: "Express",
@@ -79,7 +89,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 8,
+    id: 9,
   },
   {
     name: "Strapi",
@@ -89,7 +99,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 9,
+    id: 10,
   },
   {
     name: "HTML5",
@@ -99,7 +109,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 10,
+    id: 11,
   },
   {
     name: "CSS3",
@@ -109,7 +119,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 11,
+    id: 12,
   },
   {
     name: "Sass",
@@ -119,7 +129,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 12,
+    id: 13,
   },
   {
     name: "Tailwind",
@@ -129,7 +139,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 13,
+    id: 14,
   },
   {
     name: "Mui",
@@ -139,7 +149,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 14,
+    id: 15,
   },
   {
     name: "Styled Components",
@@ -149,7 +159,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 15,
+    id: 16,
   },
   {
     name: "Git",
@@ -159,7 +169,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 16,
+    id: 17,
   },
   {
     name: "Npm",
@@ -169,7 +179,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 17,
+    id: 18,
   },
   {
     name: "Storybook",
@@ -179,7 +189,7 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 18,
+    id: 19,
   },
   {
     name: "Vite",
@@ -189,23 +199,13 @@ export const skills = [
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
-    id: 19,
+    id: 20,
   },
   {
     name: "Webpack",
     icon: (
       <Icon
         icon="mdi:webpack"
-        style={{ fontSize: "24px", width: "20px", height: "20px" }}
-      />
-    ),
-    id: 220,
-  },
-  {
-    name: "Sql",
-    icon: (
-      <Icon
-        icon="ph:file-sql"
         style={{ fontSize: "24px", width: "20px", height: "20px" }}
       />
     ),
@@ -220,5 +220,15 @@ export const skills = [
       />
     ),
     id: 22,
+  },
+  {
+    name: "React Testing Library",
+    icon: (
+      <Icon
+        icon="streamline:octopus"
+        style={{ fontSize: "24px", width: "20px", height: "20px" }}
+      />
+    ),
+    id: 23,
   },
 ];
