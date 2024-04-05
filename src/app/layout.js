@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Architects_Daughter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const architectsDaughter = Architects_Daughter({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={architectsDaughter.className} data-theme="night">
         {children}
+        <SpeedInsights />
         <Analytics />
       </body>
     </html>
