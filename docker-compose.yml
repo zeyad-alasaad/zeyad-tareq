@@ -6,12 +6,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      "3000:3000"
+      - "3000:3000"
   environment:
     NODE_ENV: production
     PORT: 3000
   volumes:
-    .:/app
+    - .:/app
   user: "1001:1001"
 
 volumes:
