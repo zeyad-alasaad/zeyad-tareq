@@ -12,7 +12,3 @@ services:
     PORT: 3000
   volumes:
     - .:/app
-  user: "1001:1001"
-
-volumes:
-  app_data:
